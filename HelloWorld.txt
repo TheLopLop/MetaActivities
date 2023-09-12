@@ -1,9 +1,17 @@
 #include <iostream>
 
+void PrintHello();
+
 int main()
 {
-     std::cout << "Hello World!";
+     PrintHello();
 
      return 0;
+
+}
+
+void PrintHello()
+{
+     std::cout << "Hello World!";
 
 }
